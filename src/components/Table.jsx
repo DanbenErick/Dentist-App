@@ -3,7 +3,7 @@ import axios from 'axios'
 const Table = ({ tipo }) => {
 
   const [ citas, setCitas ] = useState([])
-  const API = 'https://destist-app.herokuapp.com/'
+  const API = 'https://destist-app.herokuapp.com'
   
   useEffect(() => {
     axios.get(`${API}/citas/${tipo || 'Cita Pendiente'}/${localStorage.getItem('id')}`)
