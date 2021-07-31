@@ -4,7 +4,7 @@ import { useHistory } from 'react-router-dom'
 import Header from '../components/Header.jsx'
 const DoctorPage = () => {
 
-  const API = 'https://destist-app.herokuapp.com/'
+  const API = 'https://destist-app.herokuapp.com'
   const dni = useRef()
   const history = useHistory()
 
