@@ -2,6 +2,8 @@ const express = require('express')
 const sqlite3 = require('sqlite3').verbose()
 const cors = require('cors')
 
+const PORT = process.env.PORT || 8000
+
 const app = express()
 
 app.use(cors())
@@ -76,8 +78,8 @@ app.put('/citas/:id', (req, res) => {
 })
 
 // Puerto de Base de Datos
-app.listen(8000, function(){
-  console.log('El puerto del servidor es 8000')
+app.listen(PORT, function(){
+  console.log('El puerto del servidor es : ', PORT)
 })
 
 
