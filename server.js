@@ -79,7 +79,7 @@ app.put('/citas/:id', (req, res) => {
 
 // Puerto de Base de Datos
 app.listen(PORT, function(){
-  console.log('El puerto del servidor es : ', PORT)
+  console.log('El puerto del servidor es: ', PORT)
 })
 
 
