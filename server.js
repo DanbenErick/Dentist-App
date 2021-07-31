@@ -76,8 +76,8 @@ app.put('/citas/:id', (req, res) => {
 })
 
 // Puerto de Base de Datos
-app.listen(4000, function(){
-  console.log('El puerto del servidor es 4000')
+app.listen(8000, function(){
+  console.log('El puerto del servidor es 8000')
 })
 
 

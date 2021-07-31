@@ -15,7 +15,7 @@ const Modal = () => {
     const headers = {
       'Content-Type': 'application/x-www-form-urlencoded'
     }
-    axios.post('http://localhost:4000/citas', {
+    axios.post('https://destist-app.herokuapp.com/citas', {
       doctor: localStorage.getItem('id'),
       trabajo: trabajo.current.value,
       fecha: fecha.current.value,
